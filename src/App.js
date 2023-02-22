@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Box } from '@mui/material';
+import './index.css';
+import mainBackground from './assets/mainBackground.jpg';
+import { red } from "@mui/material/colors";
+import Nav from './components/Nav';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {    
+    return(
+    <Router> 
+        <Nav />
+        <div className="App">
+        <Box sx={{
+                    height:'100vh', 
+                    width:'100vw', 
+                    backgroundImage:`url(${mainBackground})`,
+                    backgroundPosition:'cover',
+                    }}>
+                </Box>
+            <Routes>
+                {/* <Route path="/" element={<Home />} /> */}
+            </Routes>
+        </div>
+    </Router>
+    )
 }
 
 export default App;
+
