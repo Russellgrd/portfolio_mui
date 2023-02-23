@@ -38,6 +38,9 @@ const Nav = () => {
                     <Link to="/about">
                         <MyButton variant="text" size="large">ABOUT</MyButton>
                     </Link>
+                    <Link to="/projects">
+                        <MyButton variant="text" size="large">Projects</MyButton>
+                    </Link>
                     <Link to="contact">
                         <MyButton variant="text" size="large">CONTACT</MyButton>
                     </Link>
