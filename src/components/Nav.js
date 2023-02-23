@@ -4,7 +4,6 @@ import face from '../assets/face.jpg';
 
 const Nav = () => {
 
-
     const MyButton = styled(Button)(({ theme }) => ({
         color: theme.palette.common.white, 
         fontWeight: theme.typography.fontWeightBold,
@@ -21,6 +20,7 @@ const Nav = () => {
                     component="img"
                     sx={{
                     display:'inline-block',
+                    border:'1px solid white',
                     mr:'auto',
                     ml:'10px',
                     justifySelf:'start',
@@ -34,9 +34,6 @@ const Nav = () => {
                 <Box component='div' sx={{display:'flex', justifyContent:'center', mr:'auto'}}>   
                     <Link to="/">
                         <MyButton variant="text" size="large">HOME</MyButton>
-                    </Link>
-                    <Link to="/portfolio">
-                        <MyButton variant="text" size="large">PORTFOLIO</MyButton>
                     </Link>
                     <Link to="/about">
                         <MyButton variant="text" size="large">ABOUT</MyButton>

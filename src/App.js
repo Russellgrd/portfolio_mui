@@ -5,23 +5,29 @@ import mainBackground from './assets/mainBackground.jpg';
 import { red } from "@mui/material/colors";
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 const App = () => {    
     return(
     <Router> 
-        <Nav />
-        <div className="App">
-        <Box sx={{
-                    height:'100vh', 
-                    width:'100vw', 
-                    backgroundImage:`url(${mainBackground})`,
-                    backgroundPosition:'cover',
-                    }}>
-                </Box>
+        <Box className="App"
+            sx={{
+                height:'100vh', 
+                width:'100vw', 
+                backgroundImage:`url(${mainBackground})`,
+                backgroundPosition:'cover',
+                display:'flex',
+                flexDirection:'column',
+                alignItems:'center',
+                justifyContent:'center'
+                }}>
+            <Nav />
             <Routes>
-                {/* <Route path="/" element={<Home />} /> */}
+                <Route path="/" element={<Home />} />
             </Routes>
-        </div>
+            <Footer />
+        </Box>
     </Router>
     )
 }
