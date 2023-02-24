@@ -7,7 +7,8 @@ import Nav from './components/Nav';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Footer from './components/Footer';
-import About from "./components/About";
+import About from "./components/About"; 
+import Projects from "./components/Projects";
 
 const App = () => {    
     return(
@@ -27,6 +28,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/projects" element={<Projects />} />
             </Routes>
             <Footer />
         </Box>

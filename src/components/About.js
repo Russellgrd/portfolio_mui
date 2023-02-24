@@ -17,7 +17,7 @@ const About = () => {
             ABOUT ME.
         </Typography>
         <Typography variant='body1' sx={{color:'common.white', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
-            I currenly work as a Payroll Specialist, however I do web development on evenings and weekends on a freelance basis.  I am now looking to move into Web development on a full time basis and change careers completely.
+            I currenly work as a Payroll Specialist, however I do web development on evenings and weekends on a freelance basis.  I am now looking to move into Web development on a full time basis and change careers completely.  
         </Typography> 
     </Box>)
 

@@ -41,6 +41,9 @@ const Nav = () => {
                     <Link to="/projects">
                         <MyButton variant="text" size="large">Projects</MyButton>
                     </Link>
+                    <Link to="/blogs">
+                        <MyButton variant="text" size="large">Blogs</MyButton>
+                    </Link>
                     <Link to="contact">
                         <MyButton variant="text" size="large">CONTACT</MyButton>
                     </Link>
