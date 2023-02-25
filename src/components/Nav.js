@@ -14,12 +14,12 @@ const Nav = () => {
       }));
 
     return(
-        <AppBar color="transparent">
-            <Box component='div' sx={{mt:5,display:'flex', alignItems:'center', justifyContent:'center'}}>
+        <AppBar color="transparent" sx={{position:'relative'}}>
+            <Box component='div' sx={{mt:5,display:'flex', alignItems:'center', justifyContent:'center', position:'relative'}}>
                 <Box
                     component="img"
                     sx={{
-                    display:'inline-block',
+                    display:{xs:'none', md:'inline-block'},
                     border:'1px solid white',
                     mr:'auto',
                     ml:'10px',
@@ -31,7 +31,7 @@ const Nav = () => {
                     alt="face of a man"
                     src={face}
                 />
-                <Box component='div' sx={{display:'flex', justifyContent:'center', mr:'auto'}}>   
+                <Box component='div' sx={{display:'flex', flexDirection:{xs:'column',md:'row'}, justifyContent:'center', mr:{xs:0,md:'auto'}}}>   
                     <Link to="/">
                         <MyButton variant="text" size="large">HOME</MyButton>
                     </Link>

@@ -14,7 +14,7 @@ const Home = () => {
             flexDirection:'column',
             alignItems:'center'
             }} >
-            <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white'}}>
+            <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white', textAlign:'center'}}>
                 HELLO, I AM RUSSELL.
             </Typography>
             <Typography variant='body1' sx={{color:'common.white', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>

@@ -6,7 +6,7 @@ import filmProjector from '../assets/filmProjector.jpg';
 
         const shouldFade = true;
         const projectsPage = (
-            <Box sx={{display:'flex'}}>
+            <Box sx={{display:'flex', flexDirection:{xs:'column',md:'row'}}}>
                 <Card sx={{ maxWidth: 345, m:2 }}>
                 <CardMedia
                     sx={{ height: 140 }}
@@ -22,7 +22,7 @@ import filmProjector from '../assets/filmProjector.jpg';
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button href='https://natural-variation.com' target="_blank" size="small">Learn More</Button>
+                    <Button href='https://natural-variation.com' target="_blank" size="small">view site</Button>
                 </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, m:2 }}>
@@ -40,7 +40,7 @@ import filmProjector from '../assets/filmProjector.jpg';
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button href='https://natural-variation.com' target="_blank" size="small">Learn More</Button>
+                    <Button href='https://onlineshop.rdriver.net/' target="_blank" size="small">view site</Button>
                 </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, m:2 }}>
@@ -58,7 +58,7 @@ import filmProjector from '../assets/filmProjector.jpg';
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button href='https://natural-variation.com' target="_blank" size="small">Learn More</Button>
+                    <Button href='http://films.rdriver.net' target="_blank" size="small">view site</Button>
                 </CardActions>
                 </Card>
             </Box>
