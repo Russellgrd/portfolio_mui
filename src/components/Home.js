@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 
     let shouldFade = true;
+    
 
     const homePage = (<Box sx={{
             height:"60%", 

@@ -9,6 +9,8 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import About from "./components/About"; 
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 const App = () => {    
     return(
@@ -17,8 +19,8 @@ const App = () => {
             sx={{
                 minHeight:'100vh', 
                 minWidth:'100vw', 
-                backgroundImage:`url(${mainBackground})`,
-                backgroundPosition:'cover',
+                //backgroundImage:`url(${mainBackground})`,
+                backgroundColor:'#0f0d0d',
                 display:'flex',
                 flexDirection:'column',
                 alignItems:'center'
@@ -28,6 +30,8 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/resume" element={<Resume />} />
             </Routes>
             <Footer />
         </Box>

@@ -20,9 +20,8 @@ const Nav = () => {
                     component="img"
                     sx={{
                     display:{xs:'none', md:'inline-block'},
-                    border:'1px solid white',
-                    mr:'auto',
-                    ml:'10px',
+                    border:'2px solid white',
+                    ml:'auto',
                     justifySelf:'start',
                     height: 40,
                     width:40,
@@ -39,10 +38,10 @@ const Nav = () => {
                         <MyButton variant="text" size="large">ABOUT</MyButton>
                     </Link>
                     <Link to="/projects">
-                        <MyButton variant="text" size="large">Projects</MyButton>
+                        <MyButton variant="text" size="large">PROJECTS</MyButton>
                     </Link>
-                    <Link to="/blogs">
-                        <MyButton variant="text" size="large">Blogs</MyButton>
+                    <Link to="/resume">
+                        <MyButton variant="text" size="large">RESUME</MyButton>
                     </Link>
                     <Link to="contact">
                         <MyButton variant="text" size="large">CONTACT</MyButton>
