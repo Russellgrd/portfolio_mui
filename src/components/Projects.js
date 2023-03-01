@@ -1,13 +1,50 @@
-import { Card, CardActions, CardContent, CardMedia, Button, Typography, Fade,Box } from '@mui/material';
+import { Card, CardActions, CardContent, CardMedia, Button, Typography, Fade,Box, keyframes } from '@mui/material';
 import leopard from '../assets/leopard.jpg';
 import shop from '../assets/shop.jpg';
 import filmProjector from '../assets/filmProjector.jpg';
     const Projects = () => {
 
         const shouldFade = true;
+
+        const fadeIn = keyframes`
+            0% {
+            opacity: 0;
+            }
+            100% {
+            opacity: 1;
+            }
+        }       
+        `
+
+        const slitInVertical = keyframes`
+        0% {
+            -webkit-transform: translateZ(-800px) rotateY(90deg);
+                    transform: translateZ(-800px) rotateY(90deg);
+            opacity: 0;
+        }
+        54% {
+            -webkit-transform: translateZ(-160px) rotateY(87deg);
+                    transform: translateZ(-160px) rotateY(87deg);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateZ(0) rotateY(0);
+                    transform: translateZ(0) rotateY(0);
+        }
+    `
+
         const projectsPage = (
-            <Box sx={{display:'flex', flexDirection:{xs:'column',md:'row'}}}>
-                <Card sx={{ maxWidth: 345, m:2 }}>
+            <Box sx={{display:'flex', flexDirection:'column'}}>
+            <Typography variant='h3' sx={
+                {fontWeight:'bold', 
+                color:'common.white', 
+                textAlign:'center',
+                animation:`${slitInVertical} .5s ease`
+                }}>
+                PROJECTS.
+            </Typography>
+                <Box sx={{display:'flex', flexDirection:{xs:'column',md:'row'}}}>
+                <Card sx={{ maxWidth: 345, m:2,animation:`${fadeIn} .5s ease`}}>
                 <CardMedia
                     sx={{ height: 140 }}
                     image={leopard}
@@ -25,7 +62,7 @@ import filmProjector from '../assets/filmProjector.jpg';
                     <Button href='https://natural-variation.com' target="_blank" size="small">view site</Button>
                 </CardActions>
                 </Card>
-                <Card sx={{ maxWidth: 345, m:2 }}>
+                <Card sx={{ maxWidth: 345, m:2,animation:`${fadeIn} .5s ease`  }}>
                 <CardMedia
                     sx={{ height: 140 }}
                     image={shop}
@@ -43,7 +80,7 @@ import filmProjector from '../assets/filmProjector.jpg';
                     <Button href='https://onlineshop.rdriver.net/' target="_blank" size="small">view site</Button>
                 </CardActions>
                 </Card>
-                <Card sx={{ maxWidth: 345, m:2 }}>
+                <Card sx={{ maxWidth: 345, m:2,animation:`${fadeIn} .5s ease`  }}>
                 <CardMedia
                     sx={{ height: 140 }}
                     image={filmProjector}
@@ -61,6 +98,7 @@ import filmProjector from '../assets/filmProjector.jpg';
                     <Button href='http://films.rdriver.net' target="_blank" size="small">view site</Button>
                 </CardActions>
                 </Card>
+                </Box>
             </Box>
         )
 
