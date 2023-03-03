@@ -1,11 +1,13 @@
-import { Button, Box, Typography, styled } from "@mui/material";
+import { Button, Box, Typography, styled, keyframes } from "@mui/material";
 import { maxWidth } from "@mui/system";
 import { useEffect } from "react";
 import cv from '../assets/cv.docx';
+import { textShadowPopTop } from '../helpers/transitions';
 
 const MyTypographyParagraph = styled(Typography)(
     {
     color: "white",
+    fontWeight:'bold',
     marginBottom:5,
     display:'flex',
     alignItems:'center',
@@ -33,7 +35,7 @@ const Resume = () => {
 
     return(
         <Box sx={{display:'flex', flexDirection:'column'}}>
-            <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white', textAlign:'center'}}>
+            <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white', textAlign:'center', animation:`${textShadowPopTop} .5s ease forwards`}}>
                 RESUME.
             </Typography>
             <MyTypographySubHeading variant="h5">Objective</MyTypographySubHeading>

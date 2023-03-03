@@ -22,6 +22,8 @@ const App = () => {
                 //backgroundImage:`url(${mainBackground})`,
                 backgroundColor:'#0f0d0d',
                 display:'flex',
+                backgroundSize:'cover',
+                backgroundPosition:'left',
                 flexDirection:'column',
                 alignItems:'center'
                 }}>

@@ -3,29 +3,17 @@ import { Fade } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import { textShadowPopTop } from '../helpers/transitions';
 
 const Home = () => {
 
     let shouldFade = true;
 
-    const slitInVertical = keyframes`
-        0% {
-            -webkit-transform: translateZ(-800px) rotateY(90deg);
-                    transform: translateZ(-800px) rotateY(90deg);
-            opacity: 0;
-        }
-        54% {
-            -webkit-transform: translateZ(-160px) rotateY(87deg);
-                    transform: translateZ(-160px) rotateY(87deg);
-            opacity: 1;
-        }
-        100% {
-            -webkit-transform: translateZ(0) rotateY(0);
-                    transform: translateZ(0) rotateY(0);
-        }
-    `
-
-    
+    useEffect(() => {
+        setTimeout(() => {
+            document.getElementById('homeHeading').style.borderBottom = '5px solid #fbe094'
+        },500);
+    },[])
 
     const homePage = (<Box sx={{
             height:"60%", 
@@ -38,8 +26,10 @@ const Home = () => {
                 {fontWeight:'bold', 
                 color:'common.white', 
                 textAlign:'center',
-                animation:`${slitInVertical} .5s ease`
-                }}>
+                borderBottom:'5px solid black',
+                transition:'border-bottom 0.5s ease-in',
+                animation:`${textShadowPopTop} .5s ease forwards`
+                }} id="homeHeading">
 
                 HELLO, I AM RUSSELL.
             </Typography>

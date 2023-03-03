@@ -15,7 +15,13 @@ const Nav = () => {
 
     return(
         <AppBar color="transparent" sx={{position:'relative'}}>
-            <Box component='div' sx={{mt:5,display:'flex', alignItems:'center', justifyContent:'center', position:'relative'}}>
+            <Box component='div' sx={{
+                mt:5,
+                display:'flex',
+                alignItems:'center', 
+                justifyContent:'center',
+                 position:'relative'
+                 }}>
                 <Box
                     component="img"
                     sx={{
@@ -30,21 +36,21 @@ const Nav = () => {
                     alt="face of a man"
                     src={face}
                 />
-                <Box component='div' sx={{display:'flex', flexDirection:{xs:'column',md:'row'}, justifyContent:'center', mr:{xs:0,md:'auto'}}}>   
+                <Box component='div' sx={{display:'flex',justifyContent:'center', mr:{xs:0,md:'auto'}}}>   
                     <Link to="/">
-                        <MyButton variant="text" size="large">HOME</MyButton>
+                        <MyButton variant="text" sx={{fontSize:{xs:11,md:15}}}>HOME</MyButton>
                     </Link>
                     <Link to="/about">
-                        <MyButton variant="text" size="large">ABOUT</MyButton>
+                        <MyButton variant="text" sx={{fontSize:{xs:11,md:15}}}>ABOUT</MyButton>
                     </Link>
                     <Link to="/projects">
-                        <MyButton variant="text" size="large">PROJECTS</MyButton>
+                        <MyButton variant="text" sx={{fontSize:{xs:11,md:15}}}>PROJECTS</MyButton>
                     </Link>
                     <Link to="/resume">
-                        <MyButton variant="text" size="large">RESUME</MyButton>
+                        <MyButton variant="text" sx={{fontSize:{xs:11,md:15}}}>RESUME</MyButton>
                     </Link>
                     <Link to="contact">
-                        <MyButton variant="text" size="large">CONTACT</MyButton>
+                        <MyButton variant="text" sx={{fontSize:{xs:11,md:15}}}>CONTACT</MyButton>
                     </Link>
                 </Box>
 
