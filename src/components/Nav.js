@@ -6,6 +6,7 @@ const Nav = () => {
 
     const MyButton = styled(Button)(({ theme }) => ({
         color: theme.palette.common.white, 
+        display:'inline-block !important',
         fontWeight: theme.typography.fontWeightBold,
         letterSpacing:'2px',
         '&:hover': {
