@@ -3,7 +3,7 @@ import { Fade } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import { textShadowPopTop } from '../helpers/transitions';
+import { textShadowPopTop, focusInContract } from '../helpers/transitions';
 
 const Home = () => {
 
@@ -26,7 +26,8 @@ const Home = () => {
                 {fontWeight:'bold', 
                 color:'common.white', 
                 textAlign:'center',
-                borderBottom:'5px solid black',
+                borderBottom:'5px solid rgba(0,0,0,0)',
+                borderRadius:'2px',
                 transition:'border-bottom 0.5s ease-in',
                 animation:`${textShadowPopTop} .5s ease forwards`
                 }} id="homeHeading">
@@ -34,7 +35,7 @@ const Home = () => {
                 HELLO, I AM RUSSELL.
             </Typography>
             <Typography variant='body1' sx={{color:'common.white', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
-               I am a Front-End and Back-End Javascript developer and mainly focus on React applications and Nodejs.  I enjoy exploring new NPM packages and trying out new technologies.  I also have an interest in crypto currencies.
+               I am a Front-End and Back-End Javascript Web Developer and mainly focus on React applications and Nodejs.  I enjoy exploring new NPM packages and trying out new technologies.  I also have an interest in crypto currencies.
             </Typography> 
                 <Button href='https://github.com/Russellgrd' target="_blank">
                     <GitHubIcon sx={{color:'common.white', fontSize:30, mt:5}}/>

@@ -16,17 +16,18 @@ const MyTypographyParagraph = styled(Typography)(
   );
 
 const MyBullet = styled(Box)({
-    minHeight:'10px',
-    minWidth:'10px',
-    display:'inline-block',
-    marginRight:'10px',
-    backgroundColor:'red'
+    // minHeight:'10px',
+    // minWidth:'10px',
+    // display:'inline-block',
+    // marginRight:'10px',
+    // backgroundColor:'red'
 })
 
 const MyTypographySubHeading = styled(Typography)(({ theme }) => ({
     color: theme.palette.common.white,
     fontWeight: theme.typography.fontWeightBold,
     letterSpacing:'2px',
+    marginTop:50,
     marginBottom:5
   }));
 
@@ -182,7 +183,7 @@ const Resume = () => {
             <MyTypographySubHeading variant="h5">Final Comments</MyTypographySubHeading>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I am very keen to be given an opportunity to work as a full time Javascript Web Developer.  I am very dedicated and have a strong Javascript fundamental tool set in order to land running and will continue to learn and grow in order to provide quality code to the organization I work for.  I have a huge passion for web development and watching how Javascript evolves and becomes better each year.  I am fascinated by computers and currently am using an Ubuntu linux distro as I very much enjoy the freedom given and the efficiently of the linux terminal. I also have a raspberry pi and run a bitcoin node as I have an interest in crypto currency and am intrigued by the security and protocol behind the network.  I would be on a 1 month notice period and look forward to working with you.  Thank you for your time. Russell.
+                I am very keen to be given an opportunity to work as a full time Javascript Web Developer.  I am very dedicated and have a strong Javascript fundamental tool set in order to land running and will continue to learn and grow in order to provide quality code to the organization I work for. 
             </MyTypographyParagraph>
 
 

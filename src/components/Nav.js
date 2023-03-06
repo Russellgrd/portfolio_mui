@@ -14,7 +14,7 @@ const Nav = () => {
       }));
 
     return(
-        <AppBar color="transparent" sx={{position:'relative'}}>
+        <AppBar color="transparent" elevation={0} sx={{position:'relative'}}>
             <Box component='div' sx={{
                 mt:5,
                 display:'flex',
@@ -22,7 +22,7 @@ const Nav = () => {
                 justifyContent:'center',
                  position:'relative'
                  }}>
-                <Box
+                {/* <Box
                     component="img"
                     sx={{
                     display:{xs:'none', md:'inline-block'},
@@ -35,9 +35,9 @@ const Nav = () => {
                     }}
                     alt="face of a man"
                     src={face}
-                />
-                <Box component='div' sx={{display:'flex',justifyContent:'center', mr:{xs:0,md:'auto'}}}>   
-                    <Link to="/">
+                /> */}
+                <Box component='div' sx={{ width:'100vw', display:'flex',justifyContent:'center', mr:{xs:0,md:'auto'}}}>   
+                    <Link to="/" >
                         <MyButton variant="text" sx={{fontSize:{xs:11,md:15}}}>HOME</MyButton>
                     </Link>
                     <Link to="/about">
