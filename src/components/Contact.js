@@ -8,7 +8,7 @@ const Contact = () => {
             <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white', textAlign:'center', animation:`${textShadowPopTop} .5s ease forwards`}}>
                 CONTACT ME.
             </Typography>
-            <Typography variant='body1' sx={{color:'common.white', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
+            <Typography variant='h5' sx={{color:'common.white', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
                 email:  russell_driver@ymail.com
             </Typography> 
         </Box>

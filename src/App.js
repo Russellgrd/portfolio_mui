@@ -19,8 +19,8 @@ const App = () => {
             sx={{
                 minHeight:'100vh', 
                 minWidth:'100vw', 
-                backgroundImage:`url(${mainBackground})`,
-                //backgroundColor:'#0f0d0d',
+                // backgroundColor:'#1B1212',
+                backgroundImage:`url("./assets/mainBackground.jpg")`,
                 display:'flex',
                 backgroundSize:'cover',
                 backgroundPosition:'left',
