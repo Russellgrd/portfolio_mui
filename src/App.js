@@ -19,8 +19,6 @@ const App = () => {
                 minWidth:'100vw', 
                 backgroundColor:'#0f0d0d',
                 display:'flex',
-                backgroundSize:'cover',
-                backgroundPosition:'left',
                 flexDirection:'column',
                 alignItems:'center'
                 }}>

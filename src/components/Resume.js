@@ -1,7 +1,4 @@
 import { Button, Box, Typography, styled, keyframes } from "@mui/material";
-import { maxWidth } from "@mui/system";
-import { useEffect } from "react";
-import cv from '../assets/cv.docx';
 import { focusInExpand } from '../helpers/transitions';
 
 const MyTypographyParagraph = styled(Typography)(
