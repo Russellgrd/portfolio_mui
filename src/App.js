@@ -1,8 +1,6 @@
 import React from "react";
 import { Box } from '@mui/material';
 import './index.css';
-import mainBackground from './assets/mainBackground.jpg';
-import { red } from "@mui/material/colors";
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
@@ -20,7 +18,6 @@ const App = () => {
                 minHeight:'100vh', 
                 minWidth:'100vw', 
                 backgroundColor:'#0f0d0d',
-                // backgroundImage:`url("${mainBackground}")`,
                 display:'flex',
                 backgroundSize:'cover',
                 backgroundPosition:'left',
