@@ -34,7 +34,7 @@ const Home = () => {
                 HELLO, I AM RUSSELL.
             </Typography>
             <Typography variant='body1' sx={{color:'#fbe094', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
-               I am a Front-End and Back-End Javascript Web Developer and mainly focus on React applications and Nodejs.  I enjoy exploring new NPM packages and trying out new technologies.  I also have an interest in crypto currencies.
+               I am a Full Stack Javascript Web Developer and mainly focus on React applications along side Nodejs.  I enjoy exploring new NPM packages and trying out new technologies.  I also have an interest in crypto currencies.
             </Typography> 
         </Box>)
 
