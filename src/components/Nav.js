@@ -1,6 +1,5 @@
 import { AppBar, Toolbar, Button,Box, styled, IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
-import face from '../assets/face.jpg';
 
 const Nav = () => {
 
