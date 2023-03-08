@@ -5,7 +5,7 @@ import face from '../assets/face.jpg';
 const Nav = () => {
 
     const MyButton = styled(Button)(({ theme }) => ({
-        color: theme.palette.common.white, 
+        color: '#fbe094', 
         display:'inline-block !important',
         fontWeight: theme.typography.fontWeightBold,
         letterSpacing:'2px',

@@ -2,7 +2,7 @@ import { Card, CardActions, CardContent, CardMedia, Button, Typography, Fade,Box
 import leopard from '../assets/leopard.jpg';
 import shop from '../assets/shop.jpg';
 import filmProjector from '../assets/filmProjector.jpg';
-import { textShadowPopTop, slideBottom } from '../helpers/transitions';
+import { focusInExpand, slideBottom } from '../helpers/transitions';
     const Projects = () => {
 
         const shouldFade = true;
@@ -22,9 +22,9 @@ import { textShadowPopTop, slideBottom } from '../helpers/transitions';
             <Box sx={{display:'flex', flexDirection:'column'}}>
             <Typography variant='h3' sx={
                 {fontWeight:'bold', 
-                color:'common.white', 
+                color:'#fbe094', 
                 textAlign:'center',
-                animation: `${textShadowPopTop} .5s ease forwards`
+                animation:`${focusInExpand} 1s ease forwards`
                 }}>
                 PROJECTS.
             </Typography>

@@ -2,11 +2,11 @@ import { Button, Box, Typography, styled, keyframes } from "@mui/material";
 import { maxWidth } from "@mui/system";
 import { useEffect } from "react";
 import cv from '../assets/cv.docx';
-import { textShadowPopTop } from '../helpers/transitions';
+import { focusInExpand } from '../helpers/transitions';
 
 const MyTypographyParagraph = styled(Typography)(
     {
-    color: "white",
+    color: "#fbe094",
     fontWeight:'bold',
     marginBottom:5,
     display:'flex',
@@ -24,8 +24,7 @@ const MyBullet = styled(Box)({
 })
 
 const MyTypographySubHeading = styled(Typography)(({ theme }) => ({
-    color: theme.palette.common.white,
-    fontWeight: theme.typography.fontWeightBold,
+    color: '#fbe094',
     letterSpacing:'2px',
     marginTop:50,
     marginBottom:5
@@ -36,7 +35,7 @@ const Resume = () => {
 
     return(
         <Box sx={{display:'flex', flexDirection:'column'}}>
-            <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white', textAlign:'center', animation:`${textShadowPopTop} .5s ease forwards`}}>
+            <Typography variant='h3' sx={{fontWeight:'bold', color:'#fbe094', textAlign:'center', animation:`${focusInExpand} 1s ease forwards`}}>
                 RESUME.
             </Typography>
             <MyTypographySubHeading variant="h5">Objective</MyTypographySubHeading>

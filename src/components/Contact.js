@@ -1,14 +1,14 @@
 import { Box, Typography, keyframes } from "@mui/material";
-import { textShadowPopTop } from '../helpers/transitions';
+import { focusInExpand, textShadowPopTop } from '../helpers/transitions';
 
 const Contact = () => {
 
     return(
         <Box>
-            <Typography variant='h3' sx={{fontWeight:'bold', color:'common.white', textAlign:'center', animation:`${textShadowPopTop} .5s ease forwards`}}>
+            <Typography variant='h3' sx={{fontWeight:'bold', color:'#fbe094', textAlign:'center', animation:`${focusInExpand} 1s ease forwards`}}>
                 CONTACT ME.
             </Typography>
-            <Typography variant='h5' sx={{color:'common.white', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
+            <Typography variant='h5' sx={{color:'#fbe094', mt:5, maxWidth:'70ch', lineHeight:2, textAlign:'center'}}>
                 email:  russell_driver@ymail.com
             </Typography> 
         </Box>
