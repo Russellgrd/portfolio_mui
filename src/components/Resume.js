@@ -43,7 +43,7 @@ const Resume = () => {
             <MyTypographySubHeading variant="h5">Skills</MyTypographySubHeading>
             <MyTypographyParagraph>
             <MyBullet></MyBullet>
-                Very confident in implementing Javascript projects in a web or server environment and I understand all the core fundamentals of the Javascript run time environment, call stack, call back queue, synchronous, asynchronous, promises and closure
+                Very confident in implementing Javascript projects in a web or server environment and I understand all the core fundamentals of the Javascript run time environment, call stack, call back queue, synchronous, asynchronous, promises and closure.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
@@ -51,23 +51,23 @@ const Resume = () => {
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                React library as well as plain vanilla Javascript
+                React library as well as plain vanilla Javascript.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Hands on experience using git version control and working well within a team
+                Hands on experience using git version control and working well within a team.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Very dedicated to work projects and always looking to develop my skills and learn as Javascript changes, evolves and implements additions to the language
+                Very dedicated to work projects and always looking to develop my skills and learn as Javascript changes, evolves.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I can work with all kinds of data structures such as arrays, objects, lists, maps and sets
+                I can work with all kinds of data structures such as arrays, objects, lists, maps and sets.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I can work with strings and use regular expressions in order to manipulate and query data
+                I can work with strings and use regular expressions in order to manipulate and query data.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
@@ -75,56 +75,56 @@ const Resume = () => {
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I understand how the event loop works, callbacks and event listeners
+                I understand how the event loop works, callbacks and event listeners.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Well versed with the Document Object Model and manipulating data with Javascript
+                Well versed with the Document Object Model and manipulating data with Javascript.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I have worked with databases such as SQL and MongoDB and understand how to ensure safely accessing and storing data using encryption
+                I have worked with databases such as SQL and MongoDB and understand how to ensure safely accessing and storing data using encryption.
             </MyTypographyParagraph>
             <MyTypographySubHeading variant="h5">Experience</MyTypographySubHeading>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Freelance Javascript Web Developer Jan 2019 to current
+                Freelance Javascript Web Developer Jan 2019 to current.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Whilst working in a totally different career, I have been programming and building projects during evenings and weekends
+                Whilst working in a totally different career, I have been programming and building projects during evenings and weekends.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I have built a number of websites for private clients as well as personal projects
+                I have built a number of websites for private clients as well as personal projects.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I have built projects from the ground up using the MVC approach in Nodejs
+                I have built projects from the ground up using the MVC approach in Nodejs.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I have built projects using React Library and understand how to use React hooks, routing and components
+                I have built projects using React Library and understand how to use React hooks, routing and components.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I have built projects using the http module in Nodejs along with other core modules such as the fs module to handle file reading and writing using promises as well as handling read and write streams to ensure faster delivery to clients
+                I have built projects using the http module in Nodejs along with other core modules such as the fs module to handle file reading and writing using promises as well as handling read and write streams to ensure faster delivery to clients.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                I have built projects with database connections to handle saving data and reading data to and from the databases using SQL or MongoDB command line instru
+                I have built projects with database connections to handle saving data and reading data to and from the databases using SQL or MongoDB command line instructions.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Constantly learning and developing skills
+                Constantly learning and developing skills.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Really looking for an opportunity to move into a full time programming role in order to gain commercial experience and establish my career as a Javascript programmer
+                Really looking for an opportunity to move into a full time programming role in order to gain commercial experience and establish my career as a Javascript programmer.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Payroll Team Leader – Synnovis LLP, London Bridge: Aug 2019 to current
+                Payroll Team Leader – Synnovis LLP, London Bridge: Aug 2019 to current.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
@@ -132,49 +132,49 @@ const Resume = () => {
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Finance assistant,Payroll Team Leader – Next Ventures, London: Nov 2011 to Aug 2019 
+                Finance assistant,Payroll Team Leader – Next Ventures, London: Nov 2011 to Aug 2019.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Processing all contractor payroll for an IT recruitment business, looking after ledgers, credit control and 3rd party payments and costings
+                Processing all contractor payroll for an IT recruitment business, looking after ledgers, credit control and 3rd party payments and costings.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Payroll Administrator – Interquest, London: Jan 2009 to Nov 2011
+                Payroll Administrator – Interquest, London: Jan 2009 to Nov 2011.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Supporting accounts as well as paying all contractors invoices, looking after ledgers and contractor support for any unpaid invoices or payment queries
+                Supporting accounts as well as paying all contractors invoices, looking after ledgers and contractor support for any unpaid invoices or payment queries.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Payroll Administrator – Prospero Teaching - London: Jan 2008 to Jan 2009
+                Payroll Administrator – Prospero Teaching - London: Jan 2008 to Jan 2009.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Supported accounts team in paying teachers across london for all timesheets, telephone and email support for all teachers with payment queries and credit control
+                Supported accounts team in paying teachers across London for all timesheets, telephone and email support for all teachers with payment queries and credit control.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Recovery Advisor – BMW - Hook: May 2006 to Dec 2007
+                Recovery Advisor – BMW - Hook: May 2006 to Dec 2007.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Worked within the recovery team arranging recovery of BMW financed agreements that had fallen into debt.  Handling all telephone queries, emails as well as logging all calls and letter correspondence to the database
+                Worked within the recovery team arranging recovery of BMW financed agreements that had fallen into debt.  Handling all telephone queries, emails as well as logging all calls and letter correspondence to the database.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Company Buyer – Midrand South Africa: Jan 2004 to Jan 2006
+                Company Buyer – Midrand South Africa: Jan 2004 to Jan 2006.
             </MyTypographyParagraph>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Motorcycle company important 200 wrecked motor-cycles each month and it was my responsibility to order spare parts, tires and any needed equipment for the workshop to restore the motorbikes back to a good condition in order to sell to the public.
+                Motorcycle company imported 200 wrecked motor-cycles each month and it was my responsibility to order spare parts, tyres and any needed equipment for the workshop to restore the motorbikes back to a good condition in order to sell to resell.
             </MyTypographyParagraph>
             
             <MyTypographySubHeading variant="h5">Education</MyTypographySubHeading>
             <MyTypographyParagraph>
                 <MyBullet></MyBullet>
-                Matric Certification South Africa: December 2003
+                Matric Certification South Africa: December 2003.
             </MyTypographyParagraph>
             <MyTypographySubHeading variant="h5">Final Comments</MyTypographySubHeading>
             <MyTypographyParagraph>
