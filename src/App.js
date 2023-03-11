@@ -20,7 +20,8 @@ const App = () => {
                 backgroundColor:'#0f0d0d',
                 display:'flex',
                 flexDirection:'column',
-                alignItems:'center'
+                alignItems:'center',
+                overflow:'scroll'
                 }}>
             <Nav />
             <Routes>
